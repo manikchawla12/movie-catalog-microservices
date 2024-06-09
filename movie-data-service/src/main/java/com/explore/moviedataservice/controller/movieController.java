@@ -12,6 +12,6 @@ public class movieController {
 
     @GetMapping("/{movieId}")
     public Rating getRatingData(@PathVariable("movieId") String movieId){
-        return new Rating(movieId,8);
+        return new Rating(movieId,4);
     }
 }
